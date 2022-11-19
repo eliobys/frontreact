@@ -1,0 +1,9 @@
+.navLinkCustom{
+    text-decoration: none;
+    color: gray;
+}
+
+.navLinkCustom:hover{
+    text-decoration: none;
+    color: white;
+}

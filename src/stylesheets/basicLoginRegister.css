@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+:root{
+    --NaranjaMain:#4e473f;
+    --NaranjaSecond:#914702;
+    --Gris-bg:#1e1e1e;
+    --GrisMain: #5b5b5b;
+    --GrisSecond: #c4c4c4;
+}
+
+.form-control {
+    background-color:  rgba(255, 255, 255, 0.6);
+}
+
+.form-control:hover {
+    background-color:  rgb(255, 255, 255);
+}
+
+.form-control::placeholder { 
+
+    color:  black !important;
+    opacity: 1; 
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    align-items: center;
+
+}
+
+.backPanel {
+    border-radius: 2%;
+    border-width: 2rem !important; 
+    border-color:  rgba(0, 0, 0, 0.212);
+    background-color:  rgba(255, 255, 255, 0.3);
+
+}
+
+#text-label1{
+
+    color:  whitesmoke;
+    opacity: 1; 
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    align-items: center;
+    line-height: 200%;
+
+}
+
+.submitButton{
+
+    background-color: var(--NaranjaMain) !important ;
+    border: 0;
+    
+}
+
+.submitButton:hover{
+
+    background-color: var(--NaranjaSecond) !important ;
+    border-color: var(--NaranjaSecond) !important;
+    
+}
+
+.link2{
+
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    
+}
+
+.link2:hover{
+
+    background-color: var(--NaranjaSecond) !important ;
+    border-color: var(--NaranjaSecond) !important;
+    
+}
+
+.textFormatDefault{
+    color:  whitesmoke !important;
+    opacity: 1 !important; 
+    font-family: Nunito Sans !important;
+}
+
+.modalHeader{
+    background-color: var(--NaranjaMain);
+    color:whitesmoke;
+}
+
+.modalBody{
+    background-color: var(--GrisMain);
+}
+
+
+
+.registerModal::before{
+    content: "*Haz click en el boton ingresar nuevo trabajo para inscribir tu trabajo, para eliminar el último ingresado haz click en el boton elminar";
+    color: red;
+}
+
+.requestModal::before{
+    content: "*Al confirmar tu solicitud aceptas terminos y condiciones.";
+    color: red;
+}
+
+.modalFooter{
+    background-color: var(--GrisMain);
+}
+
+.listPairHandler{
+    background-color:  rgba(255, 255, 255, 0) !important;
+    border-color: rgba(255, 255, 255, 0) !important;
+}
